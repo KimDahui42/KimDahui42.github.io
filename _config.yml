@@ -1,5 +1,5 @@
 # Site
-title:              Be what I want to be 
+title:              Monu Kim 
 bio:                'Strike while the iron is hot'
 description:        "Strike while the iron is hot"
 reading_time:       true
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   DahuiKim
+disqus_shortname:   MonuKim
 
 # Social
 # if you don't have any of social below, comment the line.
