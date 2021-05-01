@@ -10,13 +10,13 @@ comments: false
 
 ### 5학기
 ####  여름방학이 지나기 전까지
-*<a href="https://www.boostcourse.org/web316/lecture/254257?isDesc=false">부스트코스 완주</a>
-*알고리즘 이론 공부
-*SMUPC 참가
-*UCPC 참가
-*오픽/토익용 단어 암기
+* <a href="https://www.boostcourse.org/web316/lecture/254257?isDesc=false">부스트코스 완주</a>
+* 알고리즘 이론 공부
+* SMUPC 참가
+* UCPC 참가
+* 오픽/토익용 단어 암기
 
 ### 6학기 목표
 #### 학기중
-*알고리즘 공부
-*개인 프로젝트 진행
+* 알고리즘 공부
+* 개인 프로젝트 진행
