@@ -1,5 +1,5 @@
 ---
-layout: post-list
+layout: post
 title: "무얼 해야할지 고민인 지금"
 date: 2021-04-30
 tags: [plan, life]
