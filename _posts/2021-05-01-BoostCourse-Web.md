@@ -7,5 +7,6 @@ project: true
 tags:[web,boostcourse]
 comments: false
 ---
-
-(수업 듣는 중)
+## 1일차
+### 1.Web 개발의 이해-FE/BE
+<a href="assets/etc/1. Web 개발의 이해.pdf">수강하며 필기한 노트</a>
