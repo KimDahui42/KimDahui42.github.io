@@ -2,7 +2,7 @@
 layout: post
 title: "무얼 해야할 지 고민인 지금"
 date: 2021-04-30
-#excerpt: "Examples and code for displaying images in posts."
+excerpt: "계속해서 피드백할 예정인 내 계획이자 목표"
 tags: [plan, life]
 comments: true
 ---
