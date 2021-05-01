@@ -2,7 +2,7 @@
 layout: post
 title: "무얼 해야할 지 고민인 지금"
 date: 2021-04-30
-excerpt: "Examples and code for displaying images in posts."
+#excerpt: "Examples and code for displaying images in posts."
 tags: [plan, life]
 comments: true
 ---
