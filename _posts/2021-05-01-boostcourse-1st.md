@@ -7,7 +7,8 @@ project: true
 tags: [web,boostcourse]
 comments: true
 ---
-
+포스트 여러개로 나누어서 하나씩 올리려다가 생각해보니 그렇게까지 할 시간이 없길래 프로젝트로 두고 계속 추가해가기로 결정했다. 날짜를 기록해두면 되겠지..?
 ## 1일차
 ### 1.Web 개발의 이해-FE/BE
+##### 2021.05.01.SAT
 <a href="/assets/etc/1. Web 개발의 이해.pdf">수강하며 필기한 노트</a>
