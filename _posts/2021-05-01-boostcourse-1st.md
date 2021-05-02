@@ -12,3 +12,9 @@ comments: true
 ### 1.Web 개발의 이해-FE/BE
 ##### 2021.05.01.SAT
 <a href="/assets/etc/1. Web 개발의 이해.pdf">수강하며 필기한 노트</a>
+
+## 2일차
+### 2.HTML-FE
+##### 2021.05.02.SUN
+//<a href="/assets/etc/2. HTML-FE.pdf">필기한 노트</a>
+수업듣는 중
