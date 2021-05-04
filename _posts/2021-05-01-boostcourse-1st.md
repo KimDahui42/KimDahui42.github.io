@@ -16,5 +16,5 @@ comments: true
 ## 2일차
 ### 2.HTML-FE
 ##### 2021.05.02.SUN
-<!---<a href="/assets/etc/2. HTML-FE.pdf">필기한 노트</a>--->
+<a href="/assets/etc/2. HTML-FE.pdf">수강하며 필기한 노트</a>
 수업듣는 중
