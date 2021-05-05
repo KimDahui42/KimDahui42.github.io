@@ -1,3 +1,10 @@
+---
+layout: page
+title: Category
+description: "All Categories are here."
+comments: false
+---
+
 {% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign categories_list = site_categories | split:',' | sort %}
 
