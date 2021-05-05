@@ -14,13 +14,13 @@ comments: true
 ### 1.Web 개발의 이해-FE/BE
 ##### 2021.05.01.SAT
 <a href="/assets/etc/1. Web 개발의 이해.pdf">수강하며 필기한 노트</a>
-<br> *21.05.06.파일수정
+<br> *21.05.06.파일수정*
 
 ## 2~5일차
 ### 2.HTML-FE/3.CSS-FE
 ##### 2021.05.02/03/04/05 SUN/MON/TUE/WED
 <a href="/assets/etc/2. HTML-FE.pdf">수강하며 필기한 노트</a>
-<br> *21.05.06.파일수정
+<br> *21.05.06.파일수정*
 
 ## 6일차
 ### 4.개발환경 설정-BE
