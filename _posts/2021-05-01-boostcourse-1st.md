@@ -15,8 +15,14 @@ comments: true
 ##### 2021.05.01.SAT
 <a href="/assets/etc/1. Web 개발의 이해.pdf">수강하며 필기한 노트</a>
 
-## 2~4일차
-### 2.HTML-FE
-##### 2021.05.02/03/04 SUN/MON/TUE
+## 2~5일차
+### 2.HTML-FE/3.CSS-FE
+##### 2021.05.02/03/04/05 SUN/MON/TUE/WED
 <a href="/assets/etc/2. HTML-FE.pdf">수강하며 필기한 노트</a><br>
-<br><수업듣는 중>
+
+## 6일차
+### 4.개발환경 설정-BE
+##### 2021.05.06 THU
+<a href="/assets/etc/4.개발환경 설정-BE.pdf">수강하며 필기한 노트</a><br>
+파일 링크는 걸어뒀지만 아직 아무것도 업로드하지 않았다. 수업듣는 중
+
