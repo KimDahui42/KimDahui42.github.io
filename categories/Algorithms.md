@@ -1,4 +1,5 @@
 ---
-layout:category
-title:"Algorithms"
+layout: category
+title: "Algorithms"
 ---
+
