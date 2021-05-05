@@ -9,8 +9,9 @@ comments: false
 <center>monu00424@sookmyung.ac.kr</center>
 
 ## Education
-* Sookmyung Women's University, Software Convergence/03.2019, Bachelor
+* Sookmyung Women's University, Software Convergence/03.2019, Bachelor(Pursuing)
 
 ## Experience
 * Sookmyung Algos
+* Boost Course, Web-Programming(Full-stack),Ongoing
 
