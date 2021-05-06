@@ -7,3 +7,8 @@ tags: [study,algorithms,bfs]
 category: [Algorithms]
 comments: false
 ---
+### 관련 문제
+#### 1. 토마토 7576
+'''
+//코드 삽입란이 만들어지는 지 확인
+'''
