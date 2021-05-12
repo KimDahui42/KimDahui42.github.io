@@ -69,7 +69,7 @@ taskkill /f /pid 해당 PID를 입력해서 포트를 죽이려고 하니깐 액
 <figure>
 	<a href="/assets/etc/error/cmd.png"><img src="/assets/etc/error/cmd.png"></a>
 	<figcaption></figcaption>
-</figure>-->
+</figure>
 <br><br>
-그리고 저는 실행할 수 있게 되었답니다.
+\*\*그리고 저는 실행할 수 있게 되었답니다.\*\*
 
