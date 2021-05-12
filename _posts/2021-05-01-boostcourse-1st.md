@@ -13,7 +13,7 @@ comments: true
 ## 1일차
 ### 1.Web 개발의 이해-FE/BE
 ##### 2021.05.01.SAT
-<a href="/assets/etc/1. Web 개발의 이해.pdf">수강하며 필기한 노트</a>
+<a href="https://kimdahui42/assets/etc/1. Web 개발의 이해.pdf">수강하며 필기한 노트</a>
 <br> *21.05.06.파일수정*
 
 ## 2~5일차
@@ -50,15 +50,15 @@ comments: true
 >>다른 버젼의 톰캣을 설치, 변화 없음
 >>zip 파일이 아니라 WIndows Service Installer를 다운 받아 설치하는 것으로 해결
 <figure>
-	<a href="/assets/etc/error/톰캣.png"><img src="/assets/etc/error/톰캣.png"></a>
+	<a href="/assets/etc/error/톰캣.PNG"><img src="/assets/etc/error/톰캣.PNG"></a>
 	<figcaption><a href="https://tomcat.apache.org/download-80.cgi" title="톰캣8.5 버젼">톰캣8.5 버젼을 사용했다</a>.</figcaption>
 </figure>
 <br><br>
 3. 코드를 짜고 실행을 했더니 resource /Server does not exist 로 막혔음
 >>이클립스 Servers에서 서버 클릭-overview에서 Sever Options (Publish module contexts to separate XML files를 선택하고 Ports 탭에서 Tomcat admin port는 8005, HTTP/1.1은 8080으로 포트넘버를 수정하는 것으로 해결했다.
 <figure class="half">
-    <a href="/assets/etc/error/포츠.png"><img src="/assets/etc/error/포츠.png"></a>
-    <a href="/assets/etc/error/서버옵션.png"><img src="/assets/etc/error/서버옵션.png"></a>
+    <a href="/assets/etc/error/포츠.PNG"><img src="/assets/etc/error/포츠.PNG"></a>
+    <a href="/assets/etc/error/서버옵션.PNG"><img src="/assets/etc/error/서버옵션.PNG"></a>
     <figcaption></figcaption>
 </figure>
 <br><br>
@@ -67,7 +67,7 @@ comments: true
 >cmd에 netstat -a -n -o -p tcp를 입력해 로컬주소 8080이 LISTENING 상태로 사용중인걸 발견하고 해당 PID를 확인했음
 taskkill /f /pid 해당 PID를 입력해서 포트를 죽이려고 하니깐 액세스가 거부되어서 종료할 수 없었음 cmd를 관리자 모드로 다시 실행해 절차를 반복했더니 포트를 종료할 수 있었음
 <figure>
-	<a href="/assets/etc/error/cmd.png"><img src="/assets/etc/error/cmd.png"></a>
+	<a href="/assets/etc/error/cmd.PNG"><img src="/assets/etc/error/cmd.PNG"></a>
 	<figcaption></figcaption>
 </figure>
 <br><br>
