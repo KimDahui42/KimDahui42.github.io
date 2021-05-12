@@ -35,8 +35,8 @@ comments: true
 
 톰캣하나 설치하려는데 너무 수많은 고난과 역경을 거쳤기에 남기는 기록
 <br><br>
-1. Dynamic Web Project가 없음!
-Help-install new Software-Work with: 최근 이클립스 업데이트 버젼-Web,XML,JAVA EE and OSGi Enterprise Development로 들어가서
+1. Dynamic Web Project가 없음!<br>
+>Help-install new Software-Work with: 최근 이클립스 업데이트 버젼-Web,XML,JAVA EE and OSGi Enterprise Development로 들어가서
 Eclipse Java EE Developer Tools
 Eclipse Java Web Developer Tools
 Eclipse Java Web Developer Tools-JavaScript Support
