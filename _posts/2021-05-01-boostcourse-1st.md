@@ -42,7 +42,7 @@ comments: true
 * Eclipse Java Web Developer Tools-JavaScript Support
 * Eclipse Web Developer Tools
 * Eclipse XML Editors and Tools
-을 설치했다 안되면 관련항목을 이것저것 더 설치해보면서 찾는 편이 나은듯
+을 설치했다 안되면 관련항목을 이것저것 더 설치해보면서 찾는 편이 나은듯<br>
 
 2. startup.bat파일을 실행하려 했으나 실행이 안됨
 >jdk 설치때 JAVA_HOME 과 CLASSPATH를 추가를 하지않아서 추가했음
@@ -53,7 +53,7 @@ comments: true
 	<a href="/assets/etc/error/톰캣.PNG"><img src="/assets/etc/error/톰캣.PNG"></a>
 	<figcaption><a href="https://tomcat.apache.org/download-80.cgi" title="톰캣8.5 버젼">톰캣8.5 버젼을 사용했다</a>.</figcaption>
 </figure>
-<br><
+<br>
 3. 코드를 짜고 실행을 했더니 resource /Server does not exist 로 막혔음
 >>이클립스 Servers에서 서버 클릭-overview에서 Sever Options (Publish module contexts to separate XML files를 선택하고 Ports 탭에서 Tomcat admin port는 8005, HTTP/1.1은 8080으로 포트넘버를 수정하는 것으로 해결했다.<br>
 <figure class="half">
