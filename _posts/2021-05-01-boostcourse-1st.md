@@ -51,7 +51,7 @@ comments: true
 >>zip 파일이 아니라 WIndows Service Installer를 다운 받아 설치하는 것으로 해결<br>
 <figure>
 	<a href="/assets/etc/error/톰캣.PNG"><img src="/assets/etc/error/톰캣.PNG"></a>
-	<figcaption><a href="https://tomcat.apache.org/download-80.cgi" title="톰캣8.5 버젼"><br>톰캣8.5 버젼을 사용했다</a>.</figcaption>
+	<figcaption><a href="https://tomcat.apache.org/download-80.cgi" title="톰캣8.5 버젼">톰캣8.5 버젼을 사용했다</a>.</figcaption>
 </figure>
 <br><
 3.코드를 짜고 실행을 했더니 resource /Server does not exist 로 막혔음
