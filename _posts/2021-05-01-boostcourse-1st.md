@@ -42,7 +42,7 @@ comments: true
 * Eclipse Java Web Developer Tools-JavaScript Support
 * Eclipse Web Developer Tools
 * Eclipse XML Editors and Tools
-<br>을 설치했다 안되면 관련항목을 이것저것 더 설치해보면서 찾는 편이 나은듯
+<br><br>을 설치했다 안되면 관련항목을 이것저것 더 설치해보면서 찾는 편이 나은듯
 <br><br>
 2. startup.bat파일을 실행하려 했으나 실행이 안됨
 >jdk 설치때 JAVA_HOME 과 CLASSPATH를 추가를 하지않아서 추가했음
