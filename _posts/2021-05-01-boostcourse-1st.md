@@ -37,11 +37,11 @@ comments: true
 <br><br>
 1. Dynamic Web Project가 없음!<br>
 >Help-install new Software-Work with: 최근 이클립스 업데이트 버젼-Web,XML,JAVA EE and OSGi Enterprise Development로 들어가서
-Eclipse Java EE Developer Tools
-Eclipse Java Web Developer Tools
-Eclipse Java Web Developer Tools-JavaScript Support
-Eclipse Web Developer Tools
-Eclipse XML Editors and Tools
+* Eclipse Java EE Developer Tools
+* Eclipse Java Web Developer Tools
+* Eclipse Java Web Developer Tools-JavaScript Support
+* Eclipse Web Developer Tools
+* Eclipse XML Editors and Tools
 <br>을 설치했다 안되면 관련항목을 이것저것 더 설치해보면서 찾는 편이 나은듯
 <br><br>
 2. startup.bat파일을 실행하려 했으나 실행이 안됨
