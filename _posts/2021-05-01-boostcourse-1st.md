@@ -59,7 +59,7 @@ comments: true
 <br>
 3. 코드를 짜고 실행을 했더니 resource /Server does not exist 로 막혔음
 >>이클립스 Servers에서 서버 클릭-overview에서 Sever Options (Publish module contexts to separate XML files를 선택하고 Ports 탭에서 Tomcat admin port는 8005, HTTP/1.1은 8080으로 포트넘버를 수정하는 것으로 해결했다.<br>
->><figure class="half">
+><figure class="half">
     <a href="/assets/etc/error/포츠.PNG"><img src="/assets/etc/error/포츠.PNG"></a>
     <a href="/assets/etc/error/서버옵션.PNG"><img src="/assets/etc/error/서버옵션.PNG"></a>
 </figure>
