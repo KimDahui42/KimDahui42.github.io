@@ -62,13 +62,13 @@ comments: true
 ><figure class="half">
     <a href="/assets/etc/error/포츠.PNG"><img src="/assets/etc/error/포츠.PNG"></a>
     <a href="/assets/etc/error/서버옵션.PNG"><img src="/assets/etc/error/서버옵션.PNG"></a>
-></figure>
+</figure>
 4. "port 8080 required by tomcat v8.5 server at localhost is already in use. the server may already be running in another process, or a system process may be using the port. to start this server you will need to stop the other process or change the port number(s)."
 라면서....포트를 사용중이라 사용할 수 없다고 오류가 떴음 너무 화가났지만 이거 아님 아무것도 할 수 없다는 걸 알고있지...
 >cmd에 netstat -a -n -o -p tcp를 입력해 로컬주소 8080이 LISTENING 상태로 사용중인걸 발견하고 해당 PID를 확인했음
 taskkill /f /pid 해당 PID를 입력해서 포트를 죽이려고 하니깐 액세스가 거부되어서 종료할 수 없었음 cmd를 관리자 모드로 다시 실행해 절차를 반복했더니 포트를 종료할 수 있었음<br>
 ><figure>
 	<a href="/assets/etc/error/cmd.PNG"><img src="/assets/etc/error/cmd.PNG"></a>
-></figure>
+<!--</figure>-->
 그리고 저는 실행할 수 있게 되었답니다.
 
