@@ -7,7 +7,7 @@ tags: [plan, life, study]
 category : [Daily Plan]
 comments: false
 ---
- ## 언젠가는 승부를 봐야지하고 벼르고 있던 fork한 repository 커밋로그 유지하면서 옮기기
+ ## fork한 repository 커밋로그 유지하면서 옮기기
  
  공부해야지하고 다짐한 이후로 거의 매일 깃허브에 커밋로그를 남기려했다. 블로그 관리가 가장 무난하게 깃허브 사용에 적응하도록 도와줄거라 생각해 jekyll 테마도 가져오고 뒤적였는데...
  뒤늦게 fork한 저장소에서 커밋은 잔디가 남지 않는다는 사실을 알게되었다 너무 충격이야..
