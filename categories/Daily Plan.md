@@ -1,4 +1,4 @@
 ---
 layout: category
-title: "Daily Plan"
+title: "Daily Problem"
 ---

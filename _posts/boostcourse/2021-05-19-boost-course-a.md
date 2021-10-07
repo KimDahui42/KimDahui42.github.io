@@ -3,7 +3,6 @@ layout: post
 title: "[부스트코스] 홈페이지 만들기"
 date: 2021-05-18
 excerpt: "첫번째 프로젝트 제출"
-project: false
 tags: [web,boostcourse]
 category: [Boostcourse]
 comments: true
