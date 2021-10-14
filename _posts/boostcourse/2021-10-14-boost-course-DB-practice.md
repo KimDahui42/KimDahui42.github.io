@@ -44,6 +44,7 @@ comments: true
 * .m2 파일 삭제후 재실행, dependency 최신 버젼으로 코드 수정, project update=> 오류 유지
     * <a href="https://mvnrepository.com/artifact/com.fasterxml.jackson.core"> dependency 코드는 이곳에서 확인했다</a>
     * `databind`, `annotation`, `core`와 dependant하다
+ 
 ```
 <!-- databind -->
 <dependency>
@@ -65,6 +66,7 @@ comments: true
 </dependency>
 
 ```
+
 * `.classpath` 파일 수정으로 해결
 
 ```
