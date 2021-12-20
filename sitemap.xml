@@ -1,32 +1,189 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
-    <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
-        {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-        {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-        {% endif %}
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
 
-        {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-        {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-        {% endif %}
-
-        {% if post.sitemap.priority == null %}
-        <priority>0.5</priority>
-        {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-        {% endif %}
-
-    </url>
-    {% endfor %}
+<url>
+   <loc>https://kimdahui42.github.io/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/feed.xml</loc>
+   <lastmod>2021-12-20T18:37:12+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/about/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/posts/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/tags/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/categories/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/projects/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/solved-Add-two-numbers/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/boost-course-DB-practice/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/solved-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%95%95%EC%B6%95/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/solved-%ED%96%89%EB%A0%AC%EC%9D%98-%EA%B3%B1%EC%85%88/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/solved-%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/solved-%ED%94%84%EB%A6%B0%ED%84%B0/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/solved-%EC%A7%9D%EC%A7%80%EC%96%B4-%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/linear(2)/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/linear/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/algorithm-tree-dp/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/algorithm-dp/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/boost-course-a/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/fork-to-clone/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/algorithm-bfs/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/%ED%8A%B8%EC%9C%84%ED%84%B0-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/boost-course-1st/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/categories/Data%20Structure/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/categories/Algorithms/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/assets/etc/2.%20HTML-FE.pdf</loc>
+   <lastmod>2021-12-20T18:37:12+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/assets/etc/4.개발환경%20설정-BE.pdf</loc>
+   <lastmod>2021-12-20T18:37:12+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/categories/Boostcourse/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/categories/Solved/</loc>
+   <lastmod>2021-12-10T14:45:16+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
+<url>
+   <loc>https://kimdahui42.github.io/nwitter/</loc>
+   <lastmod>2021-10-06T14:25:59+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.9</priority>
+</url>
 </urlset>
