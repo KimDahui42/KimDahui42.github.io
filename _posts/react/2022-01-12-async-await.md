@@ -39,7 +39,7 @@ async 함수 선언은 AsyncFunction 객체를 반환하는 하나의 비동기 
 	* 프로미스가 대기에서 벗어나 이행 또는 거부된다면 `프로미스가 처리(settled)됐다`고 표현
 	* 이행되거나 거부될 때, 프로미스의 then 메서드에 의해 대기열(큐)에 추가된 처리기들이 호출된다
 		* 이미 이행했거나 거부된 프로미스에 처리기를 연결해도 호출되어 비동기 연산과 처리기 연결 사이에 경합 조건이 없다
-	* Primise.prototype.then() 및 Promise.prototype.catch() 메서드의 반환 값은 새로운 프로미스이므로 서로 연결할 수 있다
-	<img width=550 height=200 src="assets/etc/react/promises.png" alt="Promise 설명"><br>
-	<a href="https://url.kr/r6yebc"><span text align="left">해당 문서로 이동</span></a>
+	* Promise.prototype.then() 및 Promise.prototype.catch() 메서드의 반환 값은 새로운 프로미스이므로 서로 연결할 수 있다<br><br>
+	<img width=550 height=200 src="/assets/etc/react/promises.png" alt="Promise 설명"><br>
+	<a href="https://url.kr/r6yebc">해당 문서로 이동</a>
 
