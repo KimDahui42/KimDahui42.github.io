@@ -41,13 +41,13 @@ comments: true
 	</tr>
 	<tr>
 		<td>
-			<img href="assets/etc/boostcourePhoto/기본-메인.JPG" alt="메인화면"/>
+			<img href="/assets/etc/boostcourePhoto/mainPage.JPG" alt="메인화면"/>
 		</td>
 		<td>
-			<img href="assets/etc/boostcourePhoto/기본-상태변경.JPG" alt="상태변경"/>
+			<img href="/assets/etc/boostcourePhoto/stateChange.JPG" alt="상태변경"/>
 		</td>
 		<td>
-			<img href="assets/etc/boostcourePhoto/기본-할일등록.JPG" alt="할일등록"/>
+			<img href="/assets/etc/boostcourePhoto/whatTodo.JPG" alt="할일등록"/>
 		</td>
 	</tr>
 </table>
