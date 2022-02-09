@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[부스트코스] 웹프로그래밍 시작하기"
+title: "[부스트코스] TODO 리스트"
 date: 2021-11-30
 excerpt: "두번째 프로젝트 제출"
 tags: [web,boostcourse]
@@ -41,13 +41,13 @@ comments: true
 	</tr>
 	<tr>
 		<td>
-			<img href="/assets/etc/boostcourePhoto/mainPage.JPG" alt="메인화면"/>
+			<img src="/assets/etc/boostcourePhoto/mainPage.JPG" alt="메인화면"/>
 		</td>
 		<td>
-			<img href="/assets/etc/boostcourePhoto/stateChange.JPG" alt="상태변경"/>
+			<img src="/assets/etc/boostcourePhoto/stateChange.JPG" alt="상태변경"/>
 		</td>
 		<td>
-			<img href="/assets/etc/boostcourePhoto/whatTodo.JPG" alt="할일등록"/>
+			<img src="/assets/etc/boostcourePhoto/whatTodo.JPG" alt="할일등록"/>
 		</td>
 	</tr>
 </table>
