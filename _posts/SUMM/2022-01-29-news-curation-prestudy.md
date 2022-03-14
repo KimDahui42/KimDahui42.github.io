@@ -4,7 +4,7 @@ title: "주요 뉴스 큐레이션 사이트 개발을 위한 조사"
 date: 2022-01-29
 excerpt: "주요한 뉴스만 모아 제공하는 사이트 개발을 위해 관련된 자료들을 조사하며 요약 정리하는 문서"
 tags: [study]
-category: [Daily Problem,SUMM]
+category: [SUMM]
 comments: false
 ---
 ## 기존 사이트
