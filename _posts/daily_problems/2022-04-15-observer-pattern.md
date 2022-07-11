@@ -1,6 +1,6 @@
 ---
-layout:post
-title:"observer pattern"
+layout: post
+title: "observer pattern"
 date: 2022-04-15
 excerpt: "바닐라 자바스크립트로 옵저버 패턴 흉내내기"
 tags: [web,study,javascript]
