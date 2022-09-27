@@ -130,17 +130,6 @@ def get_object(self):
 
 뷰에서 출력하는 개체를 반환한다. 필요에 따라 다른 쿼리셋을 제공할 때 재정의하여 사용한다.
 
-<details>
-<summary style="cursor:pointer;"><h4 style="display:inline-block">filter_queryset</h4></summary>
-<p><pre>def filter_queryset(self, queryset):
-    for backend in list(self.filter_backends):
-    queryset = backend().filter_queryset(self.request, queryset, self)
-    return queryset
-</pre>
-쿼리셋이 주어지면 사용중인 filter backed를 통해 필터링한다
-</p>
-</details>
-
 ```python
 def get_queryset(self):
         assert self.queryset is not None, (
@@ -157,6 +146,17 @@ def get_queryset(self):
 ```
 
 default는 self.queryset이지만 queryset은 한 번만 동작하고 get_queryset은 request 마다 동작하기 때문에 queryset 사용보다 get_queryset 사용이 권장된다. 요청에 따라 다른 쿼리셋을 제공할 때 재정의하여 사용한다.
+
+<details>
+<summary style="cursor:pointer;"><h4 style="display:inline-block">filter_queryset</h4></summary>
+<p><pre>def filter_queryset(self, queryset):
+    for backend in list(self.filter_backends):
+    queryset = backend().filter_queryset(self.request, queryset, self)
+    return queryset
+</pre>
+쿼리셋이 주어지면 사용중인 filter backed를 통해 필터링한다
+</p>
+</details>
 
 #### get_serializer
 
