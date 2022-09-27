@@ -2,7 +2,7 @@
 layout: post
 title: "Serializer, ModelViewSet에서의 create,update 메서드 비교"
 date: 2022-09-27
-excerpt: "REST API를 정리"
+excerpt: "메모리 내부에 저장되는 형태와 출력되는 형태가 다르기 때문에 객체의 구조를 유지하는 것이 중요하다."
 tags: [study, Django, Django REST Framework]
 category: [Daily Problem]
 comments: false
@@ -29,6 +29,7 @@ comments: false
 DRF의 Serializer은 BaseSerializer 클래스를 상속받아 구현된다.
 
 BaseSerializer의 네 가지 메서드를 재정의하는 것으로 새로운 serializer 클래스의 기능을 정의한다.
+
 |method |설명|
 |:--:|:--:|
 |.to_representation()|읽기 작업, 직렬화 관련|
