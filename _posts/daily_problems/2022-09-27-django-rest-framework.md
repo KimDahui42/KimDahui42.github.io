@@ -15,7 +15,7 @@ comments: false
 -   RESTful API 특징 : 동작을 url에 표현하는게 아니라 HTTP 메서드로 표현한다.
     -   drf 내부적으로는 list, retrieve, create, update, delete, partial update와 같은 용어를 쓰기도 한다.
 
-<특이사항>
+[특이사항]
 REST나 RESTful에서는 url 끝에 슬래시를 붙이지 않는 걸 권고하지만 장고는 붙이는 형태를 권고한다.
 c.f. `/api/post`,`/api/post/`
 -> drf는 장고 패턴을 따른다.
