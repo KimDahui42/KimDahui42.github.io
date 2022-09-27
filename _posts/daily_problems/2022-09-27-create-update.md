@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BaseSerializer과 ModelViewSet에서의 create,update 메서드 비교"
+title: "Serializer, ModelViewSet에서의 create,update 메서드 비교"
 date: 2022-09-27
 excerpt: "REST API를 정리"
 tags: [study, Django, Django REST Framework]
@@ -9,10 +9,7 @@ comments: false
 ---
 
 ## Serialization : 직렬화
-
-drf에서는 다음과 같이 설명하고 있다.
-
-> serializer를 사용하면 쿼리셋이나 모델 인스턴스와 같은 복잡한 데이터를 네이티브 Python 데이터 유형으로 변환한 다음 JSON, XML또는 다른 콘텐츠 유형으로 쉽게 렌더링할 수 있습니다. serializer는 역직렬화 기능을 제공하여 수신되는 데이터의 유효성을 검사한 후 구문 분석된 데이터를 복합 유형으로 다시 변환할 수 있습니다.
+> drf에서는 다음과 같이 설명하고 있다. "serializer를 사용하면 쿼리셋이나 모델 인스턴스와 같은 복잡한 데이터를 네이티브 Python 데이터 유형으로 변환한 다음 JSON, XML또는 다른 콘텐츠 유형으로 쉽게 렌더링할 수 있습니다. serializer는 역직렬화 기능을 제공하여 수신되는 데이터의 유효성을 검사한 후 구문 분석된 데이터를 복합 유형으로 다시 변환할 수 있습니다."
 
 직렬화는 아래의 이유에서 수행된다.
 
@@ -31,12 +28,12 @@ drf에서는 다음과 같이 설명하고 있다.
 
 DRF의 Serializer은 BaseSerializer 클래스를 상속받아 구현된다.
 
-baseserializer의 네 가지 메서드를 재정의하는 것으로 새로운 serializer 클래스의 기능을 정의한다.
-method |설명
-:--:|:--:
-.to_representation()|읽기 작업, 직렬화 관련
-.to_internal_value()|쓰기 작업, 역직렬화 관련
-.create() .update()|인스턴스 저장 관련
+BaseSerializer의 네 가지 메서드를 재정의하는 것으로 새로운 serializer 클래스의 기능을 정의한다.
+|method |설명|
+|:--:|:--:|
+|.to_representation()|읽기 작업, 직렬화 관련|
+|.to_internal_value()|쓰기 작업, 역직렬화 관련|
+|.create() .update()|인스턴스 저장 관련|
 
 ---
 
@@ -82,8 +79,7 @@ def update(self, request, *args, **kwargs):
 create와 update 메서드는 각각 ModelViewSet의 부모 클래스 CreateModelMixin과 UpdateModelMixin에 정의되어 있다. 이는 serializer의 유효성 검사를 호출하기 때문에 애플리케이션 로직을 분리할 수 있고, 잦은 유효성 검사 호출과 응답 출력에 대해 신경쓰지 않을 수 있다.
 
 #### 과정
-
--   serializer 호출 -> 유효성 검사 -> perform_create | perform_update
+serializer 호출 -> 유효성 검사 -> perform_create | perform_update
 
 ---
 
@@ -135,9 +131,7 @@ def get_object(self):
 
 <details>
 <summary style="cursor:pointer;"><h4 style="display:inline-block">filter_queryset</h4></summary>
-<p>
-<pre>
-def filter_queryset(self, queryset):
+<p><pre>def filter_queryset(self, queryset):
     for backend in list(self.filter_backends):
     queryset = backend().filter_queryset(self.request, queryset, self)
     return queryset
@@ -161,7 +155,7 @@ def get_queryset(self):
         return queryset
 ```
 
-default는 self.queryset이지만 queryset은 한 번만 동작하고 get_queryset은 request 마다 동작하기 때문에 queryset 사용보다 get_queryset 사용이 권장된다. 요청에 따라 다른 쿼리셋을 제공할때 재정의하여 사용한다.
+default는 self.queryset이지만 queryset은 한 번만 동작하고 get_queryset은 request 마다 동작하기 때문에 queryset 사용보다 get_queryset 사용이 권장된다. 요청에 따라 다른 쿼리셋을 제공할 때 재정의하여 사용한다.
 
 #### get_serializer
 
@@ -176,4 +170,4 @@ def get_serializer(self, *args, **kwargs):
         return serializer_class(*args, **kwargs)
 ```
 
-get_serializer_class를 통해 사용되어야할 serializer 클래스를 파악해 get_serializer_context로 serializer context를 전달해 해당 serializer 클래스를 반환하는 메서드다.
+get_serializer_class를 통해 사용되어야 할 serializer 클래스를 파악해 get_serializer_context로 serializer context를 전달해 해당 serializer 클래스를 반환하는 메서드다.
