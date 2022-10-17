@@ -8,8 +8,6 @@ category: [Daily Problem]
 comments: false
 ---
 
-# [자바스크립트] 배열에 값을 추가, 수정, 삭제하는 방법
-
 ### 배열에 추가 경우
 
 -   push(`item`) : 배열의 맨 뒤에 요소를 추가한다.

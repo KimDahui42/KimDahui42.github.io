@@ -8,8 +8,6 @@ category: [Daily Problem]
 comments: false
 ---
 
-# [자바스크립트] Map, Object와 비교
-
 # 키 기반 컬렉션
 
 -   입력된 키값을 기준으로 정렬되는 데이터의 집합(자료구조)

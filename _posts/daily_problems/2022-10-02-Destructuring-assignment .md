@@ -8,8 +8,6 @@ category: [Daily Problem]
 comments: false
 ---
 
-# [자바스크립트] 구조 분해 할당
-
 [참고 링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
 > ES6 부터 구조 분해 할당(Destructuring assignment)을 적용할 수 있게 되었다. Perl, Python 등의 언어에서도 볼 수 있는 개념이다.
